@@ -58,6 +58,7 @@ header h1 {
 #avatar {
     width: 195px;
     padding-top: 5px;
+    border-radius: 16px;
 }
 nav {
     position: fixed;
