@@ -9,7 +9,7 @@ body {
     font-family: 'Andale Mono', 'Courier New', Helvetica, Arial, sans-serif;
     background: #f5f5f5;
     position: relative;
-	background: url("images/bg.png") repeat;
+    background: url("images/bg.png") repeat;
 }
 h1 {
     color: #000;
@@ -137,8 +137,7 @@ aside span {
 
 /*main begin*/
 #main {
-    width: 680px;
-    float: left;
+    overflow: hidden;
 }
 #main a {
     color: #0d9cce;
@@ -166,6 +165,9 @@ article h2 {
     padding: 4px 20px 0 0;
     width: 160px;
     float: left;
+}
+#publications p {
+    overflow: hidden;
 }
 #activities li span {
     width: 140px;
