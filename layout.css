@@ -44,7 +44,7 @@ h1 {
     height: 2124px;
     margin-left: -20px;
 }
-.wrap #left {
+.wrap #extra {
     float: left;
     width: 240px;
 }
@@ -169,10 +169,12 @@ article h2 {
 #publications p {
     overflow: hidden;
 }
-#activities li span {
+#activities li span:first-child {
     width: 140px;
-    display: inline-block;
     float: left;
-    height: 35px;
+}
+#activities .act-des {
+    overflow: hidden;
+    display: block;
 }
 /*main end*/
