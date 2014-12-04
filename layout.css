@@ -6,10 +6,12 @@ li {list-style-type:none;}
 body {
     font-size: 13px;
     color: #666;
+		/* font should be modified */
     font-family: 'Andale Mono', 'Courier New', Helvetica, Arial, sans-serif;
     background: #f5f5f5;
     position: relative;
     background: url("images/bg.png") repeat;
+    line-height: 1.5;
 }
 h1 {
     color: #000;
